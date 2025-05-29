@@ -1,0 +1,36 @@
+# Core dependencies
+python-dotenv==1.0.0
+asyncio==3.4.3
+typing-extensions==4.8.0
+
+# Speech processing
+sounddevice==0.4.6
+numpy==1.26.4
+faster-whisper==0.10.0
+webrtcvad==2.0.10
+
+# LLM and API
+groq==0.4.2
+openai==1.3.7
+langchain==0.1.12
+langchain-community==0.0.28
+langchain-core==0.1.32
+langchain-pinecone==0.0.1
+pinecone-client==2.2.4
+
+# Database
+psycopg2==2.9.9
+pymongo==4.6.1
+SQLAlchemy==2.0.23
+asyncpg==0.29.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Utilities
+pandas==2.2.1
+python-dateutil==2.8.2
+torch==2.2.1
+transformers==4.38.2
+sentence-transformers==2.5.1 
