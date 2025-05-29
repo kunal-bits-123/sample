@@ -1,0 +1,24 @@
+#requirements.txt (for RAG module)
+#LangChain and related components
+langchain
+langchain-community         # For loaders, text_splitters
+langchain-huggingface       # For HuggingFaceEmbeddings
+langchain-pinecone          # For Pinecone vector store integration
+
+#Embedding model provider
+sentence-transformers
+
+#Pinecone client
+pinecone-client>=3.0.0      # Ensure you have a recent version
+
+#LLM provider for generation
+groq
+
+#For loading .env files
+python-dotenv
+
+#For document loading (example for PDF)
+pypdf
+
+#For general utilities
+numpy<2.0 # Pinning NumPy to version 1.x for broader compatibility
