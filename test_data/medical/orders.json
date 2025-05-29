@@ -1,0 +1,12 @@
+{
+  "orders": [{
+    "name": "Metformin",
+    "class": "Biguanides",
+    "indication": "Type 2 Diabetes",
+    "interactions": [
+      "Lisinopril"
+    ],
+    "dosage": "500-2000mg daily"
+  }
+]
+}

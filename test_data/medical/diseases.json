@@ -1,0 +1,16 @@
+{
+  "diseases": [
+    {
+      "name": "Diabetes",
+      "type": "Chronic",
+      "symptoms": [
+        "Increased thirst",
+        "Frequent urination"
+      ],
+      "treatments": [
+        "Metformin",
+        "Insulin"
+      ]
+    }
+  ]
+}

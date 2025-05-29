@@ -1,0 +1,17 @@
+[
+  {
+    "condition": "Diabetes",
+    "recommendations": [
+      {
+        "category": "Lifestyle",
+        "description": "Regular exercise and healthy diet",
+        "evidence_level": "high"
+      },
+      {
+        "category": "Medication",
+        "description": "Metformin as first-line therapy",
+        "evidence_level": "high"
+      }
+    ]
+  }
+]
