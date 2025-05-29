@@ -1,0 +1,51 @@
+{
+  "usage_metrics": {
+    "total_encounters": 150,
+    "total_orders": 75,
+    "total_appointments": 200,
+    "total_medication_checks": 300,
+    "total_clinical_decisions": 100,
+    "encounter_duration": [
+      {
+        "date": "2024-03-01",
+        "average_duration": 15
+      },
+      {
+        "date": "2024-03-02",
+        "average_duration": 18
+      }
+    ],
+    "user_satisfaction": [
+      {
+        "date": "2024-03-01",
+        "score": 4.5
+      },
+      {
+        "date": "2024-03-02",
+        "score": 4.7
+      }
+    ]
+  },
+  "compliance_metrics": {
+    "hipaa_compliance": 99.9,
+    "clinical_guidelines": 98.5,
+    "medication_safety": 99.5,
+    "documentation_completeness": 97.8
+  },
+  "error_rates": {
+    "stt_errors": 0.5,
+    "nlp_errors": 0.3,
+    "order_errors": 0.2,
+    "scheduling_errors": 0.4
+  },
+  "clinical_metrics": {
+    "diabetes_management": {
+      "a1c_control": 75,
+      "medication_adherence": 85
+    },
+    "hypertension_control": {
+      "blood_pressure_control": 70,
+      "medication_adherence": 80
+    }
+  }
+}
