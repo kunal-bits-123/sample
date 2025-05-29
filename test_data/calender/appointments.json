@@ -1,0 +1,32 @@
+{
+  "appointments": [
+    {
+      "id": "A001",
+      "patient_id": "P001",
+      "datetime": "2024-05-22T10:00:00",
+      "type": "Follow-up",
+      "duration": 30,
+      "status": "scheduled"
+    },
+    {
+      "id": "A002",
+      "patient_id": "P002",
+      "datetime": "2024-05-23T14:30:00",
+      "type": "New Patient",
+      "duration": 60,
+      "status": "scheduled"
+    }
+  ],
+  "available_slots": [
+    {
+      "datetime": "2024-05-24T09:00:00",
+      "duration": 30,
+      "type": "Follow-up"
+    },
+    {
+      "datetime": "2024-05-24T10:00:00",
+      "duration": 60,
+      "type": "New Patient"
+    }
+  ]
+}
